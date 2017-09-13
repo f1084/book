@@ -10,10 +10,11 @@ npm i element-ui -S
 
 ### 全部引入
 
+```
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 Vue.use(ElementUI)
-
+```
 ### 按需引入
 
 借助 babel-plugin-component，我们可以只引入需要的组件，以达到减小项目体积的目的。
